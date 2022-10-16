@@ -20,4 +20,4 @@ function getSecretCode(value) {
 }
 console.log(getSecretCode(15));
 
-changePercentOff(33);
+changePercentOff(37);
