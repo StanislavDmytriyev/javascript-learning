@@ -8,3 +8,20 @@
   border: 2px solid salmon;
   background-color: beige;
 }
+
+.button__learning {
+  padding: 15px;
+  background-color: blue;
+  border: 1px solid black;
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.d__none {
+  display: none;
+}
+
+.pop__up__container {
+  border: 1px solid black;
+}
