@@ -1,0 +1,9 @@
+.test__ul > li:last-child {
+  color: red;
+  border: 1px solid black;
+}
+
+.test__div > p:first-child {
+  color: red;
+  border: 1px solid black;
+}
