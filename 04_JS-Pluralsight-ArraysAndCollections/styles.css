@@ -1,3 +1,13 @@
+/* Правильный бокс-сайзинг   */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .test__ul > li:last-child {
   color: red;
   border: 1px solid black;
@@ -6,4 +16,5 @@
 .test__div > p:first-child {
   color: red;
   border: 1px solid black;
+  justify-content: center;
 }
