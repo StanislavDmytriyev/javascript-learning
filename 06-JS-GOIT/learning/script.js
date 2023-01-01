@@ -83,3 +83,13 @@ function normalizeInput(input) {
   const normalizedInput = input.toLowerCase();
   return normalizedInput;
 }
+
+let number = 50.2;
+
+let INT = Number.parseInt(number);
+console.log(INT, typeof INT);
+
+let FLOAT = Number.parseFloat(number);
+console.log(FLOAT, typeof FLOAT);
+
+console.log("возводим в 0.5", Math.pow(10, 0.5));
