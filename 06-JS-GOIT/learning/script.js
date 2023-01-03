@@ -59,7 +59,7 @@ function getShippingCost(country) {
   return message;
 }
 
-function formatMessage(message, maxLength) {
+function formatMessagee(message, maxLength) {
   let result;
   if (message.length <= maxLength) {
     result = message;
@@ -93,3 +93,6 @@ let FLOAT = Number.parseFloat(number);
 console.log(FLOAT, typeof FLOAT);
 
 console.log("возводим в 0.5", Math.pow(10, 0.5));
+
+let testString = "helLo my name is test String";
+console.log(testString[3]);

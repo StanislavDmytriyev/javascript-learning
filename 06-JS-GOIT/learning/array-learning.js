@@ -67,3 +67,8 @@ for (let i = 0; i < numbers.length; i += 1) {
 
   console.log(`Число больше чем ${threshold} : ${numbers[i]}`);
 }
+
+console.log("Client before unshift:", clients);
+let deleteFirst = clients.shift();
+console.log("clients unshifted element: ", deleteFirst);
+console.log("clients after unshift: ", clients);

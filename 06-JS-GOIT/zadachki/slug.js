@@ -1,8 +1,4 @@
 function slugify(title) {
-  // Change code below this line
-  // Change code above this line
-  console.log(title);
-
   const titleToArray = title.toLowerCase().split(" ");
   console.log(titleToArray);
   const slug = titleToArray.join("-");
@@ -11,3 +7,11 @@ function slugify(title) {
 }
 
 slugify("Hello this Is my article");
+
+function slugifyChaining(title) {
+  const slug1 = title.toLowerCase().split(" ").join("-");
+  console.log(slug1);
+  return slug1;
+}
+
+slugifyChaining("Hello this is my chaining slugify method");
