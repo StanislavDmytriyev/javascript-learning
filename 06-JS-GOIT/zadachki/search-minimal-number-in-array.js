@@ -14,3 +14,12 @@ for (let i of myArray) {
 
 console.log("Minimal number in the array is: ", minimalNumber);
 console.log("Maximum number is: ", maximumNumber);
+
+
+function searchMinimumNumber (someArray) {
+  console.log(...someArray);
+  const resultMax = Math.max(...someArray);
+  const resultMin = Math.min(...someArray);
+  console.log(`Maximum: ${resultMax} and Minimum: ${resultMin}`);
+}
+searchMinimumNumber(myArray);
