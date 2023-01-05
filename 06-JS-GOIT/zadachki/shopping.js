@@ -20,3 +20,13 @@ if (payment <= balance) {
 
 //6. log message ops completed anyway
 console.log("Операция завершена ");
+
+const shoppingSum = function (purchses) {
+  let total = 0;
+  for (const item of purchses) {
+    total += item;
+  }
+  return total;
+}
+
+console.log(shoppingSum([10,20,11,33,55,11,22,1312312,111,3]));
