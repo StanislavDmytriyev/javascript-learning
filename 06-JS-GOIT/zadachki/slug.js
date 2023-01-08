@@ -15,3 +15,11 @@ function slugifyChaining(title) {
 }
 
 slugifyChaining("Hello this is my chaining slugify method");
+
+const slugFunction = function (someArray) {
+  return someArray.toLowerCase().split(" ").join("-");
+};
+
+console.log(
+  slugFunction("hello THIS wILL BE my test SLUG STRING VIA FUNCTION")
+);

@@ -18,3 +18,18 @@ for (let letter of letters) {
 }
 
 console.log("Inverted string: ", invertedString);
+
+const invertStringFunction = function (inputString) {
+  let inverted = "";
+
+  for (let letter of inputString.split("")) {
+    inverted +=
+      letter === letter.toLowerCase()
+        ? letter.toUpperCase()
+        : letter.toLowerCase();
+  }
+
+  return inverted;
+};
+
+console.log(invertStringFunction("aaAAAAAAAAAss"));

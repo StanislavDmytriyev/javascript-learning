@@ -27,6 +27,6 @@ const shoppingSum = function (purchses) {
     total += item;
   }
   return total;
-}
+};
 
-console.log(shoppingSum([10,20,11,33,55,11,22,1312312,111,3]));
+console.log(shoppingSum([10, 20, 11, 33, 55, 11, 22, 1312312, 111, 3]));
